@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import RegressionPagesObjetModel.AuthentificationPage;
@@ -26,6 +27,8 @@ public class BaseTest {
 	
 	protected WebDriver driver;
 	protected WebDriverWait wait;
+	
+	
 
     @BeforeMethod
     public void setup() {
@@ -86,17 +89,15 @@ public class BaseTest {
         
         Assert.assertTrue(homePage.isUserLoggedInByUrl(), "Connexion échouée : pas de trace de '.connected' dans l'URL !");
     }
-
-
-   
-    /*
+    
     @AfterMethod
     public void teardown() {
         if (driver != null) {
             driver.quit();
         }
     }
-	*/
 	
+    
+    
 
 }

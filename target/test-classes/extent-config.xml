@@ -1,0 +1,10 @@
+<extentreports>
+  <configuration>
+    <theme>dark</theme>
+    <encoding>utf-8</encoding>
+    <protocol>https</protocol>
+    <documentTitle>Rapport d'automatisation</documentTitle>
+    <reportName>Campagne QA - Addy et Magali</reportName>
+    <logo>file:///C:/Automatisation_Tests/TestAutoU/TestsAuto/src/test/resources/CAP_logo.png</logo>
+  </configuration>
+</extentreports>

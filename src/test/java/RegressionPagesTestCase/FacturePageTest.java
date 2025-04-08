@@ -1,7 +1,6 @@
 package RegressionPagesTestCase;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import RegressionPagesObjetModel.FacturePage;
@@ -17,14 +16,16 @@ public class FacturePageTest extends BaseTest {
 		
 		loginToApp();
 	} 
+
 	
 	//@Test(dependsOnMethods= {"ConnecterUtilisateur"})
+	@Test
 	public void MontantNegatifTest() throws InterruptedException {
 		
 		loginToApp();
 		HomeRecPage homePage = new HomeRecPage(driver);
 		FacturePage facturePage = homePage.goToFacturePage();
-		facturePage.InsererMontant("-19,18");
+		facturePage.InsererMontant("-19,20");
 		System.out.println("Test d'acceptation des montants negatifs ...   ");
 		Assert.assertFalse(facturePage.ErrorMontantInvalide (), "Le message d'erreur est affiché alors que le montant est valide !");
 	
