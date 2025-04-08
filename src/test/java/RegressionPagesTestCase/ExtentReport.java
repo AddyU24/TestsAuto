@@ -1,5 +1,6 @@
 package RegressionPagesTestCase;
 
+import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 
@@ -11,7 +12,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReport implements ITestListener {
 
@@ -79,6 +79,14 @@ public class ExtentReport implements ITestListener {
 	public void onFinish(ITestContext context) {
 		
 		extent.flush();
+		
+		 try {
+        File htmlFile = new File(sparkReporter.getFile().getAbsolutePath());
+        Desktop.getDesktop().browse(htmlFile.toURI());
+    } catch (Exception e) {
+        System.out.println("Erreur lors de l'ouverture automatique du rapport : " + e.getMessage());
+    }
+
 	}
 
 	

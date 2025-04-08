@@ -1,79 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T15:49:32 CEST" name="Suite" finished-at="2025-04-08T15:56:42 CEST" duration-ms="430354">
+  <suite started-at="2025-04-08T16:23:55 CEST" name="Suite" finished-at="2025-04-08T16:25:15 CEST" duration-ms="80000">
     <groups>
     </groups>
-    <test started-at="2025-04-08T15:49:32 CEST" name="Test" finished-at="2025-04-08T15:56:42 CEST" duration-ms="430354">
-      <class name="RegressionPagesTestCase.MagasinThouarePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RegressionPagesTestCase.MagasinThouarePageTest@6b81ce95]" started-at="2025-04-08T15:53:03 CEST" name="setup" finished-at="2025-04-08T15:53:05 CEST" duration-ms="2059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="AffichageFormulaireNousContacter_FR7010()[pri:0, instance:RegressionPagesTestCase.MagasinThouarePageTest@6b81ce95]" started-at="2025-04-08T15:53:05 CEST" name="AffichageFormulaireNousContacter_FR7010" finished-at="2025-04-08T15:54:17 CEST" duration-ms="72497" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AffichageFormulaireNousContacter_FR7010 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:RegressionPagesTestCase.MagasinThouarePageTest@6b81ce95]" started-at="2025-04-08T15:54:17 CEST" name="teardown" finished-at="2025-04-08T15:54:18 CEST" duration-ms="593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- RegressionPagesTestCase.MagasinThouarePageTest -->
-      <class name="RegressionPagesTestCase.FacturePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RegressionPagesTestCase.FacturePageTest@1ab3a8c8]" started-at="2025-04-08T15:49:32 CEST" name="setup" finished-at="2025-04-08T15:49:35 CEST" duration-ms="2999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="AffichageErrorChampsNomPrenom_FR6777()[pri:0, instance:RegressionPagesTestCase.FacturePageTest@1ab3a8c8]" started-at="2025-04-08T15:49:35 CEST" name="AffichageErrorChampsNomPrenom_FR6777" finished-at="2025-04-08T15:50:50 CEST" duration-ms="74944" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AffichageErrorChampsNomPrenom_FR6777 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:RegressionPagesTestCase.FacturePageTest@1ab3a8c8]" started-at="2025-04-08T15:50:50 CEST" name="teardown" finished-at="2025-04-08T15:50:51 CEST" duration-ms="549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:RegressionPagesTestCase.FacturePageTest@1ab3a8c8]" started-at="2025-04-08T15:50:51 CEST" name="setup" finished-at="2025-04-08T15:50:53 CEST" duration-ms="1992" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MontantNegatifTest()[pri:0, instance:RegressionPagesTestCase.FacturePageTest@1ab3a8c8]" started-at="2025-04-08T15:50:53 CEST" name="MontantNegatifTest" finished-at="2025-04-08T15:53:02 CEST" duration-ms="129211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MontantNegatifTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:RegressionPagesTestCase.FacturePageTest@1ab3a8c8]" started-at="2025-04-08T15:53:02 CEST" name="teardown" finished-at="2025-04-08T15:53:03 CEST" duration-ms="804" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- RegressionPagesTestCase.FacturePageTest -->
+    <test started-at="2025-04-08T16:23:55 CEST" name="Test" finished-at="2025-04-08T16:25:15 CEST" duration-ms="80000">
       <class name="RegressionPagesTestCase.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RegressionPagesTestCase.LoginPageTest@6d763516]" started-at="2025-04-08T15:55:32 CEST" name="setup" finished-at="2025-04-08T15:55:34 CEST" duration-ms="2133" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RegressionPagesTestCase.LoginPageTest@55b7a4e0]" started-at="2025-04-08T16:23:56 CEST" name="setup" finished-at="2025-04-08T16:23:59 CEST" duration-ms="3515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testDeConnexion()[pri:0, instance:RegressionPagesTestCase.LoginPageTest@6d763516]" started-at="2025-04-08T15:55:34 CEST" name="testDeConnexion" finished-at="2025-04-08T15:56:42 CEST" duration-ms="67918" status="PASS">
+        <test-method signature="testDeConnexion()[pri:0, instance:RegressionPagesTestCase.LoginPageTest@55b7a4e0]" started-at="2025-04-08T16:23:59 CEST" name="testDeConnexion" finished-at="2025-04-08T16:25:15 CEST" duration-ms="75538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeConnexion -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:RegressionPagesTestCase.LoginPageTest@6d763516]" started-at="2025-04-08T15:56:42 CEST" name="teardown" finished-at="2025-04-08T15:56:42 CEST" duration-ms="539" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RegressionPagesTestCase.LoginPageTest@55b7a4e0]" started-at="2025-04-08T16:25:15 CEST" name="teardown" finished-at="2025-04-08T16:25:15 CEST" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- RegressionPagesTestCase.LoginPageTest -->
-      <class name="RegressionPagesTestCase.HomeRecPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RegressionPagesTestCase.HomeRecPageTest@2a798d51]" started-at="2025-04-08T15:54:18 CEST" name="setup" finished-at="2025-04-08T15:54:20 CEST" duration-ms="1890" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="AffichageMessageErrorZeroResultat_6764()[pri:0, instance:RegressionPagesTestCase.HomeRecPageTest@2a798d51]" started-at="2025-04-08T15:54:20 CEST" name="AffichageMessageErrorZeroResultat_6764" finished-at="2025-04-08T15:55:31 CEST" duration-ms="71141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AffichageMessageErrorZeroResultat_6764 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:RegressionPagesTestCase.HomeRecPageTest@2a798d51]" started-at="2025-04-08T15:55:31 CEST" name="teardown" finished-at="2025-04-08T15:55:32 CEST" duration-ms="653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- RegressionPagesTestCase.HomeRecPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
